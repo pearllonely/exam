@@ -2,6 +2,125 @@
 	padding:0;
 	margin:0;
 }
+body {
+	background:#003466;
+}
+#cart {
+	background:#111;
+}
+.cart-price {
+	background:url(images/price.png) repeat top left;
+}
+a.left, .a.right {
+	background-repeat:no-repeat;
+	background-position:top left;
+}
+a.left:hover, a.right:hover {
+	background-position:bottom left;
+}
+#things a.left {
+	background-image:url(iimages\bZwU9ZI.jpg);
+}
+#things a.right {
+	background-image:url(images/cart-right.png);
+}
+#featured a.left, #newest a.left {
+	background-image:url(images/prev.png);
+}
+#featured a.right, #newest a.right {
+	background-image:url(images/next.png);
+}
+a.disabled {
+	visibility:hidden !important;
+}
+#full {
+	background:url(images/background.jpg) scroll no-repeat top center;
+}
+#head {
+	background:url(images/header.png) repeat-x bottom left;
+}
+#logo {
+	text-shadow:1px 1px 2px #000;
+}
+.round {
+	background:url(images/nav-left.png) no-repeat top left;
+}
+.add-cart {
+	background:url(images/nav-cart.png) no-repeat top left;
+}
+.add-cart:hover {
+	color:#00b7f4;
+	background:url(images/nav-cart.png) no-repeat bottom left;
+}
+.round span, .add-cart span {
+	background:url(images/nav-right.png) no-repeat top right;
+}
+.round:hover, .roundon, .round-current {
+	background:url(images/nav-left.png) no-repeat bottom left;
+}
+.round:hover span, .add-cart:hover span, .roundon span, .round-current span {
+	background:url(images/nav-right.png) no-repeat bottom right;
+}
+#search, #blog-search {
+	background:url(C:\Users\sam\Desktop\exam\images/301020146-2_6.jpg) no-repeat top left;
+}
+
+.div1
+{
+	background-color: lavender;
+margin-left:190px;
+padding: 10px;
+}
+.roundbutton {
+	background:url(images/round-button.png) no-repeat top left;
+}
+.roundbutton:hover {
+	background:url(images/round-button.png) no-repeat bottom left;
+}
+.wpsc_checkout_forms input.broap {
+	color:#fff;
+	background:url(images/round-button.png) no-repeat top left;
+}
+.wpsc_checkout_forms input.broap:hover {
+	background:url(images/round-button.png) no-repeat left -28px;
+}
+#head {
+	border-bottom:1px solid #145B89;
+}
+div.form h4 {
+	border-bottom:1px solid #ddd;
+}
+table.payment {
+	border-color:#ccc;
+}
+table.payment th, table.payment tr.total {
+	background:#eee;
+}
+body, .round, .round:hover, .add-cart, #logo a, .featured-title a, .roundbutton, .icon-description a, .icon-description a:hover, .icon-description p, #footer a, #footer a:hover {
+	color:#fff;
+}
+.blog-pagination a, .checkout-pagination a, .newest-desc span, #comments h3, #comments h3 a, .comment cite small a, .page-title span {
+	color:#999;
+}
+.blog-title a, .big-block, .blog-content, li p.titles a, li p.counts a, ul.tabs-nav li a, .tabs-subscribe a, .blog-pagination a:hover, .newest-desc, .pagination a, .comment cite a, .single-write ul li a, .single-write ul li a:hover, .single-set-preview h3 span {
+	color:#111;
+}
+.sidebar-content a, .blog-meta a, .blog-meta a:hover, .blog-content a:hover {
+	color:#069;
+}
+.blog-content a, .pagination a.current-page, .icon-title a {
+	color:#09c;
+}
+a:hover, .x {
+	color:#00b7f4;
+}
+li p span, .single-set-preview h3, .pagination span.none {
+	color:#ccc;
+}
+.blog-meta a:hover, .blog-content a:hover, .tabs-subscribe a:hover, #comments h3 a:hover, .comment cite a:hover, .icon-description a:hover, .pagination a:hover, .checkout-pagination a:hover, .icon-title a:hover, .single-write ul li a:hover {
+	text-decoration:underline;
+}
+
 html, body {
 	height:100%;
 	margin:0 0 1px;
@@ -1149,3 +1268,4 @@ img, div, a, input {
 
 	background-color: lavender;
 }
+
